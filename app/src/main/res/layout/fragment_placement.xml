@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.placement.PlacementFragment">
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/head"
+            android:paddingTop="10dp"
+            android:textColor="@color/black"
+            android:text="Statistics of 2020-2021"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/stats"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:paddingTop="1dp"
+            android:layout_below="@id/head"
+            android:src="@drawable/stats"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/statistics"
+            android:layout_below="@id/stats"
+            android:paddingTop="0dp"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:text="Highest = 36 lpa\nAverage = 11 lpa"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/recruiters"
+            android:layout_below="@id/statistics"
+            android:paddingTop="5dp"
+            android:paddingLeft="5dp"
+            android:textStyle="bold"
+            android:text="\t\tRecruiters"
+            android:textSize="30sp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/recruiters_name"
+            android:layout_below="@id/recruiters"
+            android:paddingTop="5dp"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            android:textColor="@color/black"
+            android:text="\t\tNutanix\t\tServiceNow\t\tGojek\nJio\t\tFinIQ\t\tNkyaa\nTCS\t\tPayPal\t\tO9 Solutions\nPracto\t\tNI\t\tXebia\nZS Associate" />
+
+
+
+
+
+
+
+
+
+
+   </RelativeLayout>
+

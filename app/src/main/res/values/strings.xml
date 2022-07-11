@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">IIITP</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_schedule">Schedule</string>
+    <string name="menu_document">Document</string>
+    <string name="menu_contact">Contact Us</string>
+    <string name="menu_ebook">Ebooks</string>
+    <string name="menu_notice">Notice</string>
+    <string name="menu_scholarship">Scholarship</string>
+    <string name="menu_setting">Settings</string>
+    <string name="welcome_to_this_app">Welcome to this app</string>
+    <string name="about_the_institute">About The Institute</string>
+    <string name="Indian_institute_of_information_technology_pune_abbreviated_iiitp_is_one_of_the_indian_institutes_of_information_technology_a_group_of_institutes_of_higher_education_in_india_focused_on_information_technology_it_is_established_by_the_ministry_of_education_moe_formerly_the_ministry_of_human_resource_development_government_of_india_and_few_industry_partners_as_not_for_profit_public_private_partnership_n_ppp_institution_1_iiit_pune_was_declared_as_an_institute_of_national_importance_ini_in_august_2017">Indian Institute of Information Technology, Pune (abbreviated IIITP), is one of the Indian Institutes of Information Technology, a group of institutes of Higher education in India focused on Information Technology. It is established by the Ministry of Education (MoE), formerly the Ministry of Human Resource Development, Government of India and few industry partners as Not-for-profit Public Private Partnership (N-PPP) Institution.[1] IIIT Pune was declared as an Institute of National Importance (INI) in August 2017.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="faculty">Faculty</string>
+    <string name="bhupi">Dr. Bhupendra Singh \n Designation Assistant Professor Educational Qualification Ph.D. (CSE) from DIAT (DRDO) Pune M. Tech. (CSE) from Central University of Rajasthan, Ajmer Email bhupi.pal08@gmail.com Phone 9673095708, 9325302119</string>
+
+
+</resources>

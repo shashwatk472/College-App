@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "988422139648",
+    "project_id": "iiitpune-1c4a0",
+    "storage_bucket": "iiitpune-1c4a0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:988422139648:android:a6f7a9524a31a0fbe98de5",
+        "android_client_info": {
+          "package_name": "com.example.iiitp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "988422139648-gvo7nj3mh9s1qqis0j6f8vbjqn65qc68.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAprRXL0WmiUfgjfaT_TlntTikUtkSG9lw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "988422139648-gvo7nj3mh9s1qqis0j6f8vbjqn65qc68.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

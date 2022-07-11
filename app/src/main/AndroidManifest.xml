@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.iiitp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.Manifest.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/iiitp_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.IIITP">
+        <activity android:name=".ui.documents.ViewUploadActivity"></activity>
+         <activity android:name=".ui.schedule.ItemActivity"></activity>
+        <activity android:name=".ui.documents.UploadActivity" />
+
+        <activity android:name=".SignInActivity" />
+        <activity android:name=".StartingActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.IIITP.NoActionBar" />
+        <activity android:name=".ui.gallery.ShowImagesActivity" />
+        <activity android:name=".ui.ebooks.EbookUploadsActivity"/>
+        <activity android:name="com.example.iiitp.ui.notice.ShowNoticeActivity"/>
+    </application>
+
+</manifest>

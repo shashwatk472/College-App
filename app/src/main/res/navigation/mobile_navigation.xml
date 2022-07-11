@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.iiitp.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.iiitp.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_schedule"
+        android:name="com.example.iiitp.ui.schedule.Schedule"
+        android:label="@string/menu_schedule"
+        tools:layout="@layout/schedule_fragment" />
+    <fragment
+        android:id="@+id/nav_ebook"
+        android:name="com.example.iiitp.ui.ebooks.Ebooks"
+        android:label="@string/menu_ebook"
+        tools:layout="@layout/ebooks_fragment" />
+    <fragment
+        android:id="@+id/nav_notice"
+        android:name="com.example.iiitp.ui.notice.Notice"
+        android:label="@string/menu_notice"
+        tools:layout="@layout/notice_fragment"/>
+    <fragment
+        android:id="@+id/nav_scholarship"
+        android:name="com.example.iiitp.ui.scholarship.Scholarship"
+        android:label="@string/menu_scholarship"
+        tools:layout="@layout/scholarship_fragment"/>
+    <fragment
+        android:id="@+id/nav_contact"
+        android:name="com.example.iiitp.ui.contactus.Contact"
+        android:label="@string/menu_contact"
+        tools:layout="@layout/contact_fragment"/>
+    <fragment
+        android:id="@+id/nav_document"
+        android:name="com.example.iiitp.ui.documents.Documents"
+        android:label="@string/menu_document"
+        tools:layout="@layout/documents_fragment"/>
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.example.iiitp.ui.Settings.Settings"
+        android:label="@string/menu_setting"
+        tools:layout="@layout/settings_fragment"/>
+    <fragment
+        android:id="@+id/nav_placement"
+        android:name="com.example.iiitp.ui.placement.PlacementFragment"
+        android:label="Placement"
+        tools:layout="@layout/fragment_placement"/>
+    <fragment
+        android:id="@+id/nav_faculty"
+        android:name="com.example.iiitp.ui.faculty.Faculty"
+        android:label="Faculty"
+        tools:layout="@layout/faculty_fragment"/>
+</navigation>
